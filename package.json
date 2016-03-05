@@ -1,0 +1,28 @@
+{
+  "name": "ghprofileviewer",
+  "version": "1.0.0",
+  "description": "gh user profile viewer app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papajo/ghProfileViewer.git"
+  },
+  "author": "P Joshi <joshipv2@gmail.com> (http://www.askpj.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/papajo/ghProfileViewer/issues"
+  },
+  "homepage": "https://github.com/papajo/ghProfileViewer#readme",
+  "devDependencies": {
+    "babel-core": "5.8.*",
+    "babel-loader": "5.3.*",
+    "webpack": "1.12.*"
+  },
+    "dependencies": {
+        "react": "^0.14.7",
+        "react-dom": "^0.14.7" 
+    }
+}
