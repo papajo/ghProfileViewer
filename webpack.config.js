@@ -4,7 +4,7 @@ module.exports = {
     ],
     output: {
         path: __dirname,
-        filename: 'app/js/main.js'
+        filename: './app/js/main.js'
     },
     module: {
         loaders: [
@@ -14,7 +14,11 @@ module.exports = {
                 exclude: /node_modules/
             }
         ]
-    }
-        
+    },
+    plugins: [
+        new webpack.ProvidePlugin({
+            "React": "react",
+        }),
+  ]
     
 }

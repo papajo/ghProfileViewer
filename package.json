@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/papajo/ghProfileViewer.git"
   },
-  "author": "P Joshi <joshipv2@gmail.com> (http://www.askpj.net)",
+  "author": "P Joshi <joshipv2@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/papajo/ghProfileViewer/issues"
